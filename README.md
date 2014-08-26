@@ -3,6 +3,8 @@ ajaxBundle
 
 This jQuery plugin creates an easy way to bundle ajax requests, enabling you to run callbacks when **ALL** of the requests have finished.
 
+This is a simple abstraction over manually using `$.when()` to create a master promise to attach callbacks to. It has the added benefit of also normalizing the response format that varies between single and multiple requests sent to `$.when()`.
+
 ## Overview
 
 The `$.ajaxBundle()` method accepts a single options object. The following options are supported:
