@@ -37,7 +37,7 @@ Create and save a reference to a new bundle:
     
 The requests will automatically be run and your callbacks executed upon completion.
 
-So, for example, if myRequests was an array with one requests and myDoneCallbacks was an array with a single callback like so:
+For example, if myRequests is an array with one request and myDoneCallbacks is an array with a single callback like so:
 
     function() {
      
