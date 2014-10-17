@@ -1,3 +1,5 @@
+[![Travis CI Build Status](https://travis-ci.org/edull24/ajaxBundle.svg?branch=master)](//travis-ci.org/edull24/ajaxBundle)
+
 ajaxBundle
 ==========
 
